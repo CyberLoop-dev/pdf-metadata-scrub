@@ -1,0 +1,1 @@
+Add a PDF you own to this folder. Inspect with `python main.py inspect path/to/file.pdf`. The repository does not include a sample document.\n
