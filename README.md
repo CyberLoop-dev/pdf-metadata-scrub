@@ -25,10 +25,10 @@ A small Python CLI for inspecting PDF document information and creating a clean 
 ## :clapper: Demo
 
 ```bash
-python main.py inspect examples/your-file.pdf
+python main.py inspect path/to/your-file.pdf
 ```
 
-The example runs locally; no hosted service or upload is required.
+Replace the path with a PDF you own; this repository does not include a sample document.
 
 ## :rocket: Quick Start
 
@@ -48,7 +48,12 @@ Run `python main.py --help` to see all supported options.
 ## :file_folder: Folder Structure
 
 ```text
-pdf-metadata-scrub/\n├── main.py\n├── requirements.txt\n├── tests/test_core.py\n├── examples/README.md\n└── assets/illustration.svg
+pdf-metadata-scrub/
+├── main.py
+├── requirements.txt
+├── tests/test_core.py
+├── examples/README.md
+└── assets/illustration.svg
 ```
 
 ## :world_map: Roadmap
